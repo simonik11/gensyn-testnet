@@ -29,7 +29,7 @@ if [ -f "$SWARM_DIR/swarm.pem" ]; then
             rm -rf "$SWARM_DIR"
 
             echo -e "${BOLD}${YELLOW}[✓] Cloning fresh repository...${NC}"
-            cd $HOME && git clone https://github.com/zunxbt/rl-swarm.git > /dev/null 2>&1
+            cd $HOME && git clone https://github.com/simonik11/rl-swarm.git > /dev/null 2>&1
 
             mv "$HOME_DIR/swarm.pem" rl-swarm/
             mv "$HOME_DIR/userData.json" rl-swarm/modal-login/temp-data/ 2>/dev/null
@@ -38,7 +38,7 @@ if [ -f "$SWARM_DIR/swarm.pem" ]; then
         elif [ "$choice" == "2" ]; then
             echo -e "${BOLD}${YELLOW}[✓] Removing existing folder and starting fresh...${NC}"
             rm -rf "$SWARM_DIR"
-            cd $HOME && git clone https://github.com/zunxbt/rl-swarm.git > /dev/null 2>&1
+            cd $HOME && git clone https://github.com/simonik11/rl-swarm.git > /dev/null 2>&1
             break
         else
             echo -e "\n${BOLD}${RED}[✗] Invalid choice. Please enter 1 or 2.${NC}"
