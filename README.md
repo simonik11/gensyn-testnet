@@ -1,10 +1,7 @@
 ```bash
 sudo apt update && sudo apt install -y python3 python3-venv python3-pip curl wget screen git lsof nano unzip
 ```
-. **Install Node.js and npm**  
-```bash
-curl -sSL https://raw.githubusercontent.com/zunxbt/installation/main/node.sh | bash
-```
+
 . **Create a `screen` session**
 ```bash
 screen -S gensyn
