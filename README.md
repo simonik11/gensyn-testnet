@@ -11,7 +11,7 @@ screen -S gensyn
 ```
 . **Run the swarm**
 ```bash
-cd $HOME && rm -rf gensyn-testnet && git clone https://github.com/simonik11/gensyn.git && chmod +x gensyn/gensyn.sh && ./gensyn/gensyn.sh
+cd $HOME && rm -rf gensyn-testnet && git clone https://github.com/simonik11/gensyn.git && chmod +x gensyn-testnet/gensyn.sh && ./gensyn-testnet/gensyn.sh
 ```
 - It will ask some questions, you should send response properly
 - ```Would you like to push models you train in the RL swarm to the Hugging Face Hub? [y/N]``` : Write `N`
