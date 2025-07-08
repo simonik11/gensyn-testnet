@@ -4,7 +4,8 @@ sudo apt update && sudo apt install -y python3 python3-venv python3-pip curl wge
 
 . **Create a `screen` session**
 ```bash
-screen -S gensyn
+# изменил название
+screen -S gensy
 ```
 . **Run the swarm**
 ```bash
